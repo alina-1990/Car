@@ -1,0 +1,129 @@
+.body {
+    font-size: 12px;
+    font-family: Arial;
+    background-color:white;
+    margin: 0 auto; 
+}
+.header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    background-color: #f36639!important;
+}
+.header-logo p:before {
+    content: ">"; 
+    font-size: 45px; 
+    padding: 3%;
+    color:white;
+}
+.header-logo p {
+    margin-left: 47%;
+    color: white;
+    font-size: 26px;
+}
+.nav-menu a {
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    font-size: 14px;
+}
+.menu  {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(96px, 89px));
+}
+.wrapper {
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+}
+.blog{
+    color: black;
+}
+.entry-header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin: 0 auto;
+    max-width: 73%;
+    grid-gap: 4%;
+    padding: 3%;
+    margin-left: 18%;
+}
+.line{
+    width: 70%;
+    margin-left: 1%;
+}
+.search {
+    padding: 1%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #3b3d42;
+}
+.entry-meta {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3b3d42;
+}
+.color {
+    color: red;
+}
+.entry-content p {
+    font-size: 13px;
+    line-height: 3;
+}
+.btn-content:hover {
+    color: black;
+}
+.btn-content {
+    background: #8fd18f;
+    color: white;
+    width: 21%;
+}
+.entry-content-post {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin: 0 auto;
+    max-width: 57%;
+    grid-gap: 4%;
+}
+.img-post img {
+    max-width: 100%;
+}
+.page-post img {
+    max-width: 100%;
+    width: 100%;
+    height: 0 auto;
+}
+.post-content-commentary {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.commentary img {
+    width: 5%;
+}
+.null {
+    width: 6%;
+}
+input {
+    width:45%;
+}
+
+.footer {
+    text-align: center;
+}
+.footer_bottom {
+    text-align: center;
+    color: black;
+}
