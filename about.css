@@ -1,37 +1,46 @@
 
 body {
 	font-size: 12px;
-	font-family: Arial;
-	background-color:white;
-	margin: 0 auto; 
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color:#80808042;
 }
 .header {
 	display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    background-color: #f36639!important;
+    background: #f36639!important;
 }
-.header-logo p:before {
-	content: ">"; /* Добавляемый текст */ 
-    font-size: 45px; /* Размер шрифта */ 
-    padding: 3%;
-    color:white;
+
+img {
+    max-width: 100%;
+    border-radius: 23px;
+    box-shadow: 1px -1px 20px 0px;
+}
+.car-logo {
+    width: 6%;
 }
 .header-logo p {
-	margin-left: 47%;
+	margin-left: 7%;
     color: white;
-    font-size: 26px;
+    font-size: 42px;
 }
 .nav-menu a {
-	text-decoration: none;
-	list-style: none;
 	color:white;
-	font-size: 14px;
+    text-decoration:none;
 }
 .menu  {
 	display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(96px, 89px));
+}
+.menu li {
+    list-style: none;
+    font-size: 23px;
+}
+
+.menu a:hover {
+   cursor:pointer;
+   color:black;
 }
 .wrapper {
 	max-width: 1365px;
@@ -39,21 +48,15 @@ body {
     margin: 0 auto;
 }
 .about {
-	color: black;
+	color: grey;
 }
 .block-greeting {
 	display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 19px;
-    max-width: 75%;
+    grid-gap: 117px;
+    max-width: 87%;
     margin: 0 auto;
-}
-.block-service p:before {
-	content: ">"; /* Добавляемый текст */ 
-    font-size: 14px; /* Размер шрифта */ 
-    padding: 6%;
-    color:red;
 }
 .block-service p{
     font-family: "Ubuntu", Sans-serif;
@@ -61,38 +64,42 @@ body {
     text-transform: uppercase;
 }
 .content-greeting {
-	font-size: 14px;
+	font-size: 19px;
+    color:grey;
 }
 .gallery {
-	margin: 10%;
+	margin: 3%;
 }
 .block-gallery {
 	display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 19px;
+    grid-gap: 54px;
     max-width: 95%;
     margin: 0 auto;
 }
 .title-container h1 {
-	text-align: center;
-	padding: 3%;
+    color:red;
 }
 .header-gallery h3 {
 	font-size: 23px;
 	color: red;
-	text-align: center;
-	margin: 5%;
 }
 .header-gallery p {
 	font-size: 23px;
-	text-align: center;
 }
 .page-gallery {
-	max-width: 98%;
+	margin: 1%;
 }
 .page-gallery img {
-	width: 94%;
+	width: 100%;
+}
+.main-gallery {
+    margin-top: 15%;
+}
+.main-gallery p {
+    color:grey;
+    font-size: 19px;
 }
 .info-block {
 	display: grid;
@@ -100,7 +107,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 19px;
     margin: 0 auto;
-    max-width: 77%;
+    max-width: 92%;
 }
 .item-box {
 	background-color: #f36639!important;
@@ -124,10 +131,10 @@ body {
 	display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 19px;
+    grid-gap: 98px;
     margin: 0 auto;
     text-align: center;
-    max-width: 87%;
+    max-width: 121%;
     padding: 4%;
 }
 .description {
@@ -146,6 +153,21 @@ body {
 	align-items: center;
     grid-template-columns: 1fr 1fr;
 }
+.button-services button {
+    padding: 1%;
+    font-size: 27px;
+    margin: 7%;
+    border-radius: 0 11px;
+    background: red;
+    border: none;
+    color:white;
+    box-shadow:inset 0 10px 19px 4px;
+}
+
+.button-services button:hover {
+    color:grey;
+}
+
 .page-one {
 	text-align: center;
 }
@@ -158,6 +180,5 @@ body {
 	color: white;
 }
 .footer-bottom {
-    text-align: center;
     color: white;
 }
